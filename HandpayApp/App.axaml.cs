@@ -2,10 +2,11 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
-using System.Linq;
 using Avalonia.Markup.Xaml;
+using AvaloniaWebView;
 using HandpayApp.ViewModels;
 using HandpayApp.Views;
+using System.Linq;
 
 namespace HandpayApp;
 
@@ -35,6 +36,8 @@ public partial class App : Application
                 DataContext = new MainViewModel()
             };
         }
+
+        AvaloniaWebViewBuilder.Initialize(default);
 
         base.OnFrameworkInitializationCompleted();
     }

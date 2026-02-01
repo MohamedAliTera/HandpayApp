@@ -12,5 +12,5 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <WebView x:Name="WebView" Url="https://handpay.sa"/>
 </UserControl>
