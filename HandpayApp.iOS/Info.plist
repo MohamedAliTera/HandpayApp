@@ -12,8 +12,6 @@
 	<string>1.0</string>
 	<key>CFBundleName</key>
 	<string>Handpay</string>
-	<key>CFBundleIconName</key>
-	<string>AppIcon</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
