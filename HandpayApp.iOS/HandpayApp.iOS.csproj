@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <XSAppIconAssets>Assets.xcassets/AppIcon.appiconset</XSAppIconAssets>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <CodesignKey>Apple Distribution: ESTABLISHMENQADAT AL-NUZUM FOR INFORMATION TECHNOLOGY (SWD84MSQYW)</CodesignKey>
+  </PropertyGroup>
 
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\**\*" />
