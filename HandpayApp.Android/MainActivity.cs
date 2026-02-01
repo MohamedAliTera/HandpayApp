@@ -7,7 +7,7 @@ using Avalonia.WebView.Android;
 namespace HandpayApp.Android;
 
 [Activity(
-    Label = "HandpayApp.Android",
+    Label = "Handpay",
     Theme = "@style/MyTheme.NoActionBar",
     Icon = "@drawable/icon",
     MainLauncher = true,

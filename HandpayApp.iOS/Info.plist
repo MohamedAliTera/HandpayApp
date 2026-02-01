@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>HandpayApp</string>
+	<string>Handpay</string>
 	<key>CFBundleIdentifier</key>
-	<string>companyName.HandpayApp</string>
+	<string>sa.handpay.app</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

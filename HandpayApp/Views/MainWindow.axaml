@@ -6,7 +6,7 @@
         xmlns:views="using:HandpayApp.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="HandpayApp.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
-        Title="HandpayApp">
+        Icon="/Assets/Icon.ico"
+        Title="Handpay">
         <views:MainView />
 </Window>
