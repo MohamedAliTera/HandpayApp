@@ -17,14 +17,6 @@ public partial class App : Application
             .WithInterFont()
             .LogToTrace();
 
-#if !ANDROID && !IOS
-    // Desktop entry point
-    [System.STAThread]
-    public static void Main(string[] args) => BuildAvaloniaApp()
-        .UsePlatformDetect()
-        .StartWithClassicDesktopLifetime(args);
-#endif
-
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);

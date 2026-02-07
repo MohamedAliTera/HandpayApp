@@ -55,7 +55,7 @@
 
   <!-- Desktop settings -->
   <PropertyGroup Condition="'$(TargetFramework)' == 'net10.0'">
-    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationManifest>Platforms\Desktop\app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <!-- Shared assets -->
