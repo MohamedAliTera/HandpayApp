@@ -1,10 +1,10 @@
-﻿using Android.App;
+using Android.App;
 using Android.Content.PM;
 using Avalonia;
 using Avalonia.Android;
 using Avalonia.WebView.Android;
 
-namespace HandpayApp.Android;
+namespace HandpayApp;
 
 [Activity(
     Label = "Handpay",

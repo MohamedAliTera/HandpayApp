@@ -2,9 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path="Directory.Packages.props" />
   </Folder>
-  <Project Path="HandpayApp.Android/HandpayApp.Android.csproj" />
-  <Project Path="HandpayApp.Browser/HandpayApp.Browser.csproj" />
-  <Project Path="HandpayApp.Desktop/HandpayApp.Desktop.csproj" />
-  <Project Path="HandpayApp.iOS/HandpayApp.iOS.csproj" />
   <Project Path="HandpayApp/HandpayApp.csproj" />
 </Solution>
